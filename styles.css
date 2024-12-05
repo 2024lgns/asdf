@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #aa2222;
+    background-color: #f0f8ff;  /* 배경색 */
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #333;  /* 헤더 배경색 */
+    color: white;  /* 헤더 글자색 */
     padding: 20px;
     text-align: center;
 }
@@ -17,6 +17,8 @@ nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    background-color: #007BFF;  /* 네비게이션 배경색 */
+    margin: 0;
 }
 
 nav ul li {
@@ -26,16 +28,25 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: white;  /* 링크 글자색 */
+    font-size: 18px;
 }
 
 nav ul li a:hover {
-    color: #007BFF;
+    color: #ffcc00;  /* 링크 hover시 색 */
+}
+
+section {
+    padding: 20px;
+    background-color: #ffffff;  /* 섹션 배경색 */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* 섹션 그림자 */
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #333;  /* 푸터 배경색 */
+    color: white;  /* 푸터 글자색 */
     text-align: center;
     padding: 10px;
     position: fixed;
